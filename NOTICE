@@ -1,0 +1,27 @@
+thoxymicro-install - one-liner installer suite for THOX.ai ThoxyMicro variants
+Copyright 2026 Thox.ai LLC.
+
+Inventors of record (THOX IP-015-i, "ThoxyMicro installer suite"):
+  - Craig Ross
+  - Phamy Xaypanya
+
+Sibling repositories in the ThoxyMicro family:
+  - ttracx/thoxymicro            (IP-015,   full Go retarget for Luckfox Pico Mini B)
+  - ttracx/thoxy-micro           (IP-015-s, shipping daemon distilled from the parent)
+  - ttracx/thoxymicro-edge       (IP-015-e, edge agent with hub offload + RKNPU2)
+  - ttracx/thoxymicro-install    (IP-015-i, THIS REPO, one-liner installers)
+
+Naming note:
+  This repository installs the ThoxyMicro family. The ThoxyMicro family is a
+  standalone Luckfox Pico Mini B (Rockchip RV1103) prototype track. It is NOT
+  a ThoxMini variant. ThoxMini canonical SoC remains Milk-V Duo. ThoxMini Air
+  remains Pi Zero W. Filenames in this repo that say "thoxmini" are profile
+  labels and do not imply a relationship to ThoxMini hardware.
+
+Third-party components:
+
+  curl, bash, coreutils, systemd / busybox     OS-provided
+  GitHub Releases API                          accessed read-only
+
+This NOTICE file is informational and does not modify the MIT license under
+which this product is distributed.
