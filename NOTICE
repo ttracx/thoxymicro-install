@@ -14,7 +14,7 @@ Sibling repositories in the ThoxyMicro family:
 Naming note:
   This repository installs the ThoxyMicro family. The ThoxyMicro family is a
   standalone Luckfox Pico Mini B (Rockchip RV1103) prototype track. It is NOT
-  a ThoxMini variant. ThoxMini canonical SoC remains Milk-V Duo. ThoxMini Air
+  a ThoxMini variant. ThoxMini canonical SoC remains Milk-V Duo. ThoxAir
   remains Pi Zero W. Filenames in this repo that say "thoxmini" are profile
   labels and do not imply a relationship to ThoxMini hardware.
 
